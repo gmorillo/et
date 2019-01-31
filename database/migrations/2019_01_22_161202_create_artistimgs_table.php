@@ -16,6 +16,7 @@ class CreateArtistimgsTable extends Migration
         Schema::create('artistimgs', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('artist_id');
+            $table->string('img');
             $table->timestamps();
         });
     }

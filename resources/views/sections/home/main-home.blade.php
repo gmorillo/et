@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 @section('title')
 	<title>Estudio de tatuajes y piercings en albacete | Etnias Tattoo Collective </title>
 @endsection
@@ -13,6 +13,14 @@
 <meta name="description" content="En nuestro estudio de tatuajes y piercings en albacete realizamos diferentes estilos de tattoo. Blackwork, Brush & Sketch, Tatuaje japones, Lettering, Neotradicional, Newschool, tatuajes ornamentales, realismo, trash polka, piercing y microdemar. Contactanos 670 98 85 44 - Estamos ubicados en Calle Marzo, 5 02002 Albacete.">
 <meta name="keywords" content="Tatuajes realismo albacete, Studio de tatuajes albacete, piercings en albacete, Tienda de tattoo albacete, Tienda de tatuajes la roda, Dotwork tattoo, Tatuajes españa, Tatuadores albacete, Tatuajes orientales, Tienda de piercings albacete ">
 @endsection
-@section('contenido')
-	@include('home.slider')	
+@section('content')
+	@include('sections.home.slider')	
+@endsection
+
+@section('stylesheet')
+<link href="{{ asset('css/slideshow.css') }}" rel="stylesheet">
+@endsection
+
+@section('scripts')
+<script src="{{ asset('js/slideshow.js') }}" type="text/javascript"></script>
 @endsection
