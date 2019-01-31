@@ -27,7 +27,7 @@
             background-repeat: no-repeat;
             border: none;
             margin: 0;
-            background:linear-gradient( to bottom, rgba(239, 6, 6, 0), rgba(0, 0, 0, 0.67) ), url('../img/texture.jpg') top left repeat;
+            background:linear-gradient( to bottom, rgba(239, 6, 6, 0), rgba(0, 0, 0, 0.67) ), url('/../img/texture.jpg') top left repeat;
             background-size: cover;
             color: #fff;
         }
